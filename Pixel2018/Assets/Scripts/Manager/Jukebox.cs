@@ -15,7 +15,13 @@ public class Jukebox : MonoBehaviour
 
 	public void PlayGunShot()
 	{
-		AkSoundEngine.PostEvent ("play_gunshot" , gameObject);
+		AkSoundEngine.PostEvent("play_gunshot", gameObject, (uint)AkCallbackType.AK_EndOfEvent, AfterGunShot, this);
+	}
+
+	private void AfterGunShot(object in_cookie, AkCallbackType in_type, object in_info)
+	{
+		if (in_type == AkCallbackType.AK_EndOfEvent)
+			Debug.Log ("EndOfGunShot");
 	}
 
 	public void PlayMusic(bool i_Play)

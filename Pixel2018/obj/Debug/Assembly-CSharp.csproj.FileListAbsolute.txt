@@ -2,7 +2,6 @@ D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Assembly-CSharp.dll
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Assembly-CSharp.pdb
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\nunit.framework.dll
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Rewired_Core.dll
-D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Rewired_NintendoSwitch_EditorRuntime.dll
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Rewired_Windows_Lib.dll
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\UnityEditor.dll
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\UnityEngine.Analytics.dll
@@ -37,7 +36,6 @@ D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\UnityEngine.GoogleAudioSpatia
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\UnityEngine.HoloLens.xml
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Rewired_Core.xml
-D:\Side_Project\Pixel2018\Pixel2018\Temp\bin\Debug\Rewired_NintendoSwitch_EditorRuntime.xml
 D:\Side_Project\Pixel2018\Pixel2018\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 D:\Side_Project\Pixel2018\Pixel2018\obj\Debug\Assembly-CSharp.dll
 D:\Side_Project\Pixel2018\Pixel2018\obj\Debug\Assembly-CSharp.pdb
