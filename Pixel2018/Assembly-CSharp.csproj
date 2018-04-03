@@ -96,6 +96,7 @@
      <Compile Include="Assets\Scripts\Manager\TransitionManager.cs" />
      <Compile Include="Assets\Scripts\Manager\WindowManager.cs" />
      <Compile Include="Assets\Scripts\Test.cs" />
+     <Compile Include="Assets\Scripts\TestWwise.cs" />
      <Compile Include="Assets\Scripts\Tool\PoolObject.cs" />
      <Compile Include="Assets\Scripts\Tool\RoundUpColliders.cs" />
      <Compile Include="Assets\Scripts\UI\InGameWindow.cs" />

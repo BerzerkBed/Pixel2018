@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 114806969397737126}
   - component: {fileID: 114331029667080576}
   - component: {fileID: 114931401257178682}
+  - component: {fileID: 114956521756416566}
+  - component: {fileID: 114717357207144458}
   m_Layer: 0
   m_Name: Jukebox
   m_TagString: Untagged
@@ -1202,6 +1204,23 @@ MonoBehaviour:
   GameCamera_GO: {fileID: 1120188957743642, guid: e948aa8721da42547be1e7500f0aeef5,
     type: 2}
   followCam: {fileID: 0}
+--- !u!114 &114717357207144458
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094267087306642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd31df8e5e9a3c45bbe48b1fdbd9574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 0.5
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  maxDistance: -1
+  refreshInterval: 1
 --- !u!114 &114806969397737126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1264,6 +1283,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inGameWindow: {fileID: 0}
   IsPaused: 0
+--- !u!114 &114956521756416566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1094267087306642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925d93f44b93880469e5f531e2ca69d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  bankName: Test
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  valueGuid: 545992514ef4894c9828b98b155c32d5
 --- !u!223 &223937170361521088
 Canvas:
   m_ObjectHideFlags: 1

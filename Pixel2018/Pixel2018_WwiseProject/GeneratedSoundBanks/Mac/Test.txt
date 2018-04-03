@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	435770000	stop_amb			\Default Work Unit\stop_amb	
+	2837384057	stop_music			\Default Work Unit\stop_music	
+	2932040671	play_music			\Default Work Unit\play_music	
+	2959533290	play_amb			\Default Work Unit\play_amb	
+	3955959628	play_gunshot			\Default Work Unit\play_gunshot	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	118652519	gunshot 2	D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Mac\SFX\gunshot 2_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\gunshot\gunshot 2		122896
+	224508139	gunshot 3	D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Mac\SFX\gunshot 3_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\gunshot\gunshot 3		122896
+	568094254	Amb	D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Mac\SFX\beach amb_F17FB28C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb		6663820
+	645506591	mus_ingame	D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Mac\SFX\mus_ingame_F17FB28C.wem		\Interactive Music Hierarchy\Default Work Unit\level_music\loop\mus_ingame		8082456
+	689613015	gunshot 1	D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Mac\SFX\gunshot 1_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\gunshot\gunshot 1		122896
+

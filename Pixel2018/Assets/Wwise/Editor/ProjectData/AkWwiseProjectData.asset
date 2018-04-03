@@ -28,24 +28,95 @@ MonoBehaviour:
     List: []
   BankWwu:
   - Guid: '{636E9647-C988-457E-B436-5123F6352C6A}'
-    m_lastTimePart2: -1999267564
-    m_lastTimePsrt1: 240749489
+    m_lastTimePart2: -1999267472
+    m_lastTimePsrt1: -1147339081
     ParentPhysicalPath: 
     PhysicalPath: SoundBanks\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 545992514ef4894c9828b98b155c32d5
+      ID: -1137964055
+      Name: Test
+      Path: Default Work Unit\Test
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Test
+        ObjectType: 7
   basePath: Audio\GeneratedSoundBanks
   callbackManagerBufferSize: 4
   CurrentPluginConfig: 
   defaultPoolSize: 4096
   EventWwu:
   - Guid: '{183C511D-98E4-4334-96AD-079C49498CEF}'
-    m_lastTimePart2: -1999267564
-    m_lastTimePsrt1: 240349387
+    m_lastTimePart2: -1999267472
+    m_lastTimePsrt1: -1151133906
     ParentPhysicalPath: 
     PhysicalPath: Events\Default Work Unit.wwu
-    List: []
+    List:
+    - Guid: 143db38971d3c541ad22a079bd82cd82
+      ID: -1335434006
+      Name: play_amb
+      Path: Default Work Unit\play_amb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_amb
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 15e72eb2c5f38e4da93e9b026c3300f4
+      ID: -339007668
+      Name: play_gunshot
+      Path: Default Work Unit\play_gunshot
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_gunshot
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 3cb0a312fffa7448b360b9c42aa32775
+      ID: -1362926625
+      Name: play_music
+      Path: Default Work Unit\play_music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: play_music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f029187ab9cebe448ef2d389acd4f78b
+      ID: 435770000
+      Name: stop_amb
+      Path: Default Work Unit\stop_amb
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_amb
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1f2d4828b2c2004a866704104e049186
+      ID: -1457583239
+      Name: stop_music
+      Path: Default Work Unit\stop_music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: stop_music
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   ExpandedItems:
   - /Pixel2018_WwiseProject
+  - /Pixel2018_WwiseProject/Events
+  - /Pixel2018_WwiseProject/Events/Default Work Unit
   language: English(US)
   lowerPoolSize: 2048
   m_lastPopulateTimePart2: 0

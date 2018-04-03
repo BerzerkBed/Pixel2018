@@ -13,8 +13,18 @@ public class Jukebox : MonoBehaviour
 		instance = this;
 	}
 
-	public void PlaySound()
+	public void PlayGunShot()
 	{
-		
+		AkSoundEngine.PostEvent ("play_gunshot" , gameObject);
+	}
+
+	public void PlayMusic(bool i_Play)
+	{
+		AkSoundEngine.PostEvent (i_Play ? "play_music" : "stop_music", gameObject);
+	}
+
+	public void PlayAmbiance(bool i_Play)
+	{
+		AkSoundEngine.PostEvent (i_Play ? "play_amb" : "stop_amb", gameObject);
 	}
 }

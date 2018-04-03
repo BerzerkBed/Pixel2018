@@ -18,7 +18,7 @@ public class TitleWindow : Window {
 	{
 		base.Update ();
 
-		if (listenToControl && MyInputManager.instance.IsActionDone (ModelActionEnum.START)) {
+		if (listenToControl && MyInputManager.instance.IsAnyActionDone()){
 			listenToControl = false;
 			TransitionManager.instance.TransitionTo ("Game" , CloseMe);
 		}

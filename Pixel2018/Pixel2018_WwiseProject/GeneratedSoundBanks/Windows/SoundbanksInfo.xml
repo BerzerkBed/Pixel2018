@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Jason Letourneau\Desktop\git pixel\Pixel2018\Pixel2018\Pixel2018_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Jason Letourneau\Desktop\git pixel\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Jason Letourneau\Desktop\git pixel\Pixel2018\Pixel2018\Pixel2018_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Jason Letourneau\Desktop\git pixel\Pixel2018\Pixel2018\Pixel2018_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Side_Project\Pixel2018\Pixel2018\Pixel2018_WwiseProject\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
