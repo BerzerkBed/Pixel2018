@@ -25,7 +25,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="loop" ID="{15CEB1AC-B986-4796-AF5B-0DCB9855BA76}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
+									<ObjectRef Name="level_music" ID="{C44651ED-3583-4BB8-AD2A-C5F9DE44AC98}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -39,7 +39,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="loop" ID="{15CEB1AC-B986-4796-AF5B-0DCB9855BA76}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
+									<ObjectRef Name="level_music" ID="{C44651ED-3583-4BB8-AD2A-C5F9DE44AC98}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

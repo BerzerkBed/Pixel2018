@@ -24,8 +24,8 @@
 				<Event Id="2959533290" Name="play_amb" ObjectPath="\Events\Default Work Unit\play_amb"/>
 				<Event Id="3955959628" Name="play_gunshot" ObjectPath="\Events\Default Work Unit\play_gunshot"/>
 				<Event Id="2932040671" Name="play_music" ObjectPath="\Events\Default Work Unit\play_music"/>
-				<Event Id="435770000" Name="stop_amb" ObjectPath="\Events\Default Work Unit\stop_amb" MaxAttenuation="0,000000"/>
-				<Event Id="2837384057" Name="stop_music" ObjectPath="\Events\Default Work Unit\stop_music" MaxAttenuation="0,000000"/>
+				<Event Id="435770000" Name="stop_amb" ObjectPath="\Events\Default Work Unit\stop_amb" MaxAttenuation="0.000000"/>
+				<Event Id="2837384057" Name="stop_music" ObjectPath="\Events\Default Work Unit\stop_music" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="118652519" Language="SFX">
