@@ -1,0 +1,23 @@
+{
+  "fileVersion": 1,
+  "exportDir": "Flump/FlumpExport",
+  "importDir": "Flump/FlumpAnimations",
+  "exports": [
+    {
+      "quality": "best",
+      "maxAtlasSize": 2048,
+      "textureBorder": 1,
+      "prettyPrint": false,
+      "format": "JSONZip",
+      "scale": 1,
+      "combine": false,
+      "scaleFactors": [
+        1
+      ],
+      "name": "Export",
+      "optimize": "Speed",
+      "scaleFactorsString": "1",
+      "description": "'Export' (JSONZip, 100%, @1x)"
+    }
+  ]
+}

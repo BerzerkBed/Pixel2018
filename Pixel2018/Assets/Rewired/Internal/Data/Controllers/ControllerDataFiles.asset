@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2084043497, guid: 09c9b883b79ef864a99683bb36c5776d, type: 3}
+  m_Name: ControllerDataFiles
+  m_EditorClassIdentifier: 
+  defaultHardwareJoystickMap: {fileID: 11400000, guid: 3cbd233ccf0431c449af2fbcc882f266,
+    type: 2}
+  hardwareJoystickMaps:
+  - {fileID: 11400000, guid: 8806bfb92931c4544a7ebd42e9cb53ce, type: 2}
+  - {fileID: 11400000, guid: c8e7ee694c990d14aa843d0b82d1552d, type: 2}
+  - {fileID: 11400000, guid: 98e7e439b7575794c912c559cbd3ea87, type: 2}
+  - {fileID: 11400000, guid: 25d5197998148774d93d9d5b6ba675a2, type: 2}
+  - {fileID: 11400000, guid: b57975934979d6648a55b7ced4876c3a, type: 2}
+  - {fileID: 11400000, guid: 05f66480300b88645aebf9962934d554, type: 2}
+  - {fileID: 11400000, guid: 5d47793e65ad5314e8955046fa11f359, type: 2}
+  - {fileID: 11400000, guid: 2caab1cb4e6f06f4a9716c1dd9957888, type: 2}
+  - {fileID: 11400000, guid: dd2c1503536274001bdc3d5d6be8a98f, type: 2}
+  - {fileID: 11400000, guid: a25f0c1e102b54019bf551294306b277, type: 2}
+  - {fileID: 11400000, guid: 770a22fe483520746b98d10d6bfa723b, type: 2}
+  - {fileID: 11400000, guid: 5c669fd16bb10994dbff55501bb6e4e9, type: 2}
+  - {fileID: 11400000, guid: 210ce8f0c7c11b144bbed6b1b2ee612f, type: 2}
+  - {fileID: 11400000, guid: 399f946159f6ad7488f6b54ef9eadf39, type: 2}
+  - {fileID: 11400000, guid: f388168af8f80a240b31061663a9561e, type: 2}
+  - {fileID: 11400000, guid: 0ecc138bb9d77d14d9ca5fbf62d70f48, type: 2}
+  - {fileID: 11400000, guid: f4f005276e582ca468a7019116c6593b, type: 2}
+  - {fileID: 11400000, guid: 7b50c795ce821c540b1bc8d62095432b, type: 2}
+  joystickTemplates:
+  - {fileID: 11400000, guid: 91b946f6f6823f4469dbe63db04db904, type: 2}
