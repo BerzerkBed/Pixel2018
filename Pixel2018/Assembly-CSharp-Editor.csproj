@@ -62,8 +62,6 @@
      <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\InputManagerInspector.cs" />
      <Compile Include="Assets\Rewired\Internal\Scripts\Editor\CustomInspectors\UserDataStore_PlayerPrefsInspector.cs" />
      <Compile Include="Assets\Rewired\Internal\Scripts\Editor\UnityEditorBridge.cs" />
-     <Compile Include="Assets\Rewired\Plugins\NintendoSwitch\Scripts\Editor\CustomInspector_External.cs" />
-     <Compile Include="Assets\Rewired\Plugins\NintendoSwitch\Scripts\Editor\NintendoSwitchInputManagerInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkAmbientInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkAudioListenerInspector.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseComponents\AkBankInspector.cs" />
@@ -119,18 +117,13 @@
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\AkWwiseXMLBuilder.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewControl.cs" />
      <Compile Include="Assets\Wwise\Editor\WwiseWindows\TreeViewControl\TreeViewItem.cs" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Profile\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\JSON\readme.txt" />
-     <None Include="Assets\Rewired\Plugins\NintendoSwitch\Documentation\ReleaseNotes.txt" />
      <None Include="Assets\StreamingAssets\desc.txt" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Release\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\Wwise\Version.txt" />
      <None Include="Assets\Rewired\Documentation\licences.txt" />
      <None Include="Assets\Rewired\Documentation\ReadMe.txt" />
      <None Include="Assets\Shaders\Sprites-Diffuse-Flash.shader" />
-     <None Include="Assets\Rewired\Plugins\NintendoSwitch\Documentation\Readme.txt" />
      <None Include="Assets\WwiseSettings.xml" />
-     <None Include="Assets\Wwise\Deployment\Plugins\Mac\Debug\AkSoundEngine.bundle\Contents\Resources\readme.txt" />
      <None Include="Assets\Rewired\Documentation\ReleaseNotes.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity_2017_2_1P3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -206,12 +199,6 @@
  </Reference>
  <Reference Include="Rewired_Windows_Lib">
  <HintPath>D:/Side_Project/Pixel2018/Pixel2018/Assets/Rewired/Internal/Libraries/Runtime/Rewired_Windows_Lib.dll</HintPath>
- </Reference>
- <Reference Include="Rewired_NintendoSwitch_Editor">
- <HintPath>D:/Side_Project/Pixel2018/Pixel2018/Assets/Rewired/Plugins/NintendoSwitch/Libraries/Editor/Rewired_NintendoSwitch_Editor.dll</HintPath>
- </Reference>
- <Reference Include="Rewired_NintendoSwitch_EditorRuntime">
- <HintPath>D:/Side_Project/Pixel2018/Pixel2018/Assets/Rewired/Plugins/NintendoSwitch/Libraries/Runtime/Rewired_NintendoSwitch_EditorRuntime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/BedEt/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

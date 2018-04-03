@@ -2,27 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\TestWwise.cs">
     <Files>
-      <File FileName="Assets\Scripts\UI\TitleWindow.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Manager\TransitionManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Manager\CallbackManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TestWwise.cs" Line="30" Column="4" />
       <File FileName="Assets\Scripts\Manager\Jukebox.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkEvent.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkTriggerEnter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkUnityEventHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkSwitch.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkState.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkRoomPortal.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkBank.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkAmbient.cs" Line="1" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkInitializer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Flump\FlumpMovieManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Flump\FlumpSpriteManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Test.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Flump\FlumpMovie.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Camera\PixelPerfectCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TestWwise.cs" Line="16" Column="42" />
-      <File FileName="Assets\Wwise\Deployment\API\Handwritten\AkCallbackManager.cs" Line="323" Column="1" />
-      <File FileName="Assets\Wwise\Deployment\Components\AkMemBankLoader.cs" Line="104" Column="1" />
+      <File FileName="Assets\Scripts\UI\TitleWindow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

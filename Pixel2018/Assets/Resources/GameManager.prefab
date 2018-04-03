@@ -106,7 +106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4601718641095792}
   - component: {fileID: 114381653162687424}
-  - component: {fileID: 114301805366305928}
   m_Layer: 0
   m_Name: RewiredInput
   m_TagString: Untagged
@@ -445,62 +444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c232fc129b91b994b8f62303208662a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114301805366305928
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1632062967589036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e9c60e1db6fcae4d8667e50bc98c695, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _userData:
-    _allowedNpadStyles: -1
-    _joyConGripStyle: 1
-    _adjustIMUsForGripStyle: 1
-    _handheldActivationMode: 0
-    _assignJoysticksByNpadId: 1
-    _npadNo1:
-      _isAllowed: 1
-      _rewiredPlayerId: 0
-      _joyConAssignmentMode: -1
-    _npadNo2:
-      _isAllowed: 0
-      _rewiredPlayerId: 1
-      _joyConAssignmentMode: -1
-    _npadNo3:
-      _isAllowed: 0
-      _rewiredPlayerId: 2
-      _joyConAssignmentMode: -1
-    _npadNo4:
-      _isAllowed: 0
-      _rewiredPlayerId: 3
-      _joyConAssignmentMode: -1
-    _npadNo5:
-      _isAllowed: 0
-      _rewiredPlayerId: 4
-      _joyConAssignmentMode: -1
-    _npadNo6:
-      _isAllowed: 0
-      _rewiredPlayerId: 5
-      _joyConAssignmentMode: -1
-    _npadNo7:
-      _isAllowed: 0
-      _rewiredPlayerId: 6
-      _joyConAssignmentMode: -1
-    _npadNo8:
-      _isAllowed: 0
-      _rewiredPlayerId: 7
-      _joyConAssignmentMode: -1
-    _npadHandheld:
-      _isAllowed: 1
-      _rewiredPlayerId: 0
-      _joyConAssignmentMode: -1
-    _debugPad:
-      _enabled: 0
-      _rewiredPlayerId: 0
 --- !u!114 &114331029667080576
 MonoBehaviour:
   m_ObjectHideFlags: 1
