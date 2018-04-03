@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{636E9647-C988-457E-B436-5123F6352C6A}" SchemaVersion="85">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{636E9647-C988-457E-B436-5123F6352C6A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{636E9647-C988-457E-B436-5123F6352C6A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Test" ID="{51925954-F44E-4C89-9828-B98B155C32D5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="play_amb" ID="{89B33D14-D371-41C5-AD22-A079BD82CD82}" WorkUnitID="{183C511D-98E4-4334-96AD-079C49498CEF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stop_amb" ID="{7A1829F0-CEB9-44BE-8EF2-D389ACD4F78B}" WorkUnitID="{183C511D-98E4-4334-96AD-079C49498CEF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="play_music" ID="{12A3B03C-FAFF-4874-B360-B9C42AA32775}" WorkUnitID="{183C511D-98E4-4334-96AD-079C49498CEF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="stop_music" ID="{28482D1F-C2B2-4A00-8667-04104E049186}" WorkUnitID="{183C511D-98E4-4334-96AD-079C49498CEF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="play_gunshot" ID="{B22EE715-F3C5-4D8E-A93E-9B026C3300F4}" WorkUnitID="{183C511D-98E4-4334-96AD-079C49498CEF}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

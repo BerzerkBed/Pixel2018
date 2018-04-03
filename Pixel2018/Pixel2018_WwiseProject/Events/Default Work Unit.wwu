@@ -1,6 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{183C511D-98E4-4334-96AD-079C49498CEF}" SchemaVersion="85">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{183C511D-98E4-4334-96AD-079C49498CEF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{183C511D-98E4-4334-96AD-079C49498CEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_gunshot" ID="{B22EE715-F3C5-4D8E-A93E-9B026C3300F4}">
+					<ChildrenList>
+						<Action Name="" ID="{E3F2555D-8612-4701-B236-BC0BA61F2152}" ShortID="247652678">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gunshot" ID="{0AE04F28-8138-48F6-A607-14B3AD314272}" WorkUnitID="{8A98B711-C05D-4EBC-B7CC-407D38E856E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_music" ID="{12A3B03C-FAFF-4874-B360-B9C42AA32775}">
+					<ChildrenList>
+						<Action Name="" ID="{778A570E-C64E-4A9D-900A-95F8CD6DD1D4}" ShortID="1048603070">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop" ID="{15CEB1AC-B986-4796-AF5B-0DCB9855BA76}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_music" ID="{28482D1F-C2B2-4A00-8667-04104E049186}">
+					<ChildrenList>
+						<Action Name="" ID="{8DD94DBE-369D-41EA-8369-C4324B0E6DFE}" ShortID="1042761496">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="loop" ID="{15CEB1AC-B986-4796-AF5B-0DCB9855BA76}" WorkUnitID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_amb" ID="{89B33D14-D371-41C5-AD22-A079BD82CD82}">
+					<ChildrenList>
+						<Action Name="" ID="{FCFFF7DF-D145-44FB-B911-C390D7EF00CE}" ShortID="1025422621">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb" ID="{29E2A722-9C8B-419C-909B-D74F4430C5FE}" WorkUnitID="{8A98B711-C05D-4EBC-B7CC-407D38E856E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="stop_amb" ID="{7A1829F0-CEB9-44BE-8EF2-D389ACD4F78B}">
+					<ChildrenList>
+						<Action Name="" ID="{A1CF2530-B49D-4E25-819A-E6A64F7A0369}" ShortID="1072209755">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb" ID="{29E2A722-9C8B-419C-909B-D74F4430C5FE}" WorkUnitID="{8A98B711-C05D-4EBC-B7CC-407D38E856E7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

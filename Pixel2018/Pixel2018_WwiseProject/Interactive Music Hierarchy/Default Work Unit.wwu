@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}" SchemaVersion="85">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D3D4D736-70F9-47C0-BAD5-4B9ED13156F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="loop" ID="{15CEB1AC-B986-4796-AF5B-0DCB9855BA76}" ShortID="657643050">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="45818.1859410431"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E177AB63-369F-4361-94BB-BDD903CB12CD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EDF5CE0F-7694-4137-BA60-5599A614E23F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="mus_ingame" ID="{683B1098-48C1-48BE-AB87-B336DE4FB368}" ShortID="906257576">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EDF5CE0F-7694-4137-BA60-5599A614E23F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mus_ingame" ID="{D3EB23B1-BF6A-47A4-9541-4CF19AEF70DE}" ShortID="645506591">
+									<Language>SFX</Language>
+									<AudioFile>mus_ingame.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{83C9C656-D6EB-48CE-BC5C-CCAC7A76FF24}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{98167C50-4842-42F5-9A2B-F505806B264B}">
+									<ClipList>
+										<MusicClip Name="mus_ingame" ID="{A0030288-E17E-4374-BA2E-67A00E4074BE}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="45818.1859410431"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="mus_ingame" ID="{D3EB23B1-BF6A-47A4-9541-4CF19AEF70DE}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{0BFFFDD4-B262-4104-8625-5A852FC1636D}"/>
+						<MusicCue Name="Exit Cue" ID="{F087338A-09C0-49EE-9710-C1DBCCFB2B8A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
